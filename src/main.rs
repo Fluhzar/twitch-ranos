@@ -133,7 +133,7 @@ mod include {
     }
 
     pub fn get_user_config() -> Result<UserConfig, String> {
-        let name = get_env_var("TWITCH_NAME")?;
+        let name = get_env_var("TWITCH_USERNAME")?;
         let token = get_env_var("TWITCH_TOKEN")?;
 
         super::error_to_string(
