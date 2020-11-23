@@ -1,5 +1,12 @@
 # twitch-ranos
 
+NOTE: This bot is not ready for regular use and is at best in the experimentation stages.
+
+Some things that need implementation:
+
+* Credential level checks, e.g. it shouldn't be possible for any random user to type `!quit` and shutdown the bot.
+* More usable commands other than gimmicks.
+
 ## Usage
 
 Command prefix: `!` - This can be customized in `lib.rs` by changing the value of the `PREFIX` const.
