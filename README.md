@@ -20,7 +20,7 @@ The bot should be run with the following environment variables set:
 ### Commands
 
 * `ping`: replies with `pong!`.
-* `quit`: shuts down the bot. There currently is no protection on this command, anyone can enter `!quit` in the chat
+* `quit`: shuts down the bot. There currently is no protection on this command, anyone can enter `!quit` in the chat.
 * `roll`: takes parameters in standard dice format (e.g. 1d6, 3d20, etc.), rolls the corresponding dice and reports the individual roll values as well as the sum of the values.
 * `time`: prints the current time. If no additional parameters are given, it displays the time at UTC+0000, otherwise it displays the time at the given UTC offset (e.g. `-0800` for US West Coast PST timezone). Multiple parameters can be given to display the current time in multiple timezones.
 * `uptime`: responds with the number of seconds the bot has been up.
